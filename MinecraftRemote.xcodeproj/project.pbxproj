@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092B707B1286963C00C2566A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092B707A1286963C00C2566A /* Cocoa.framework */; };
+		092B70801286963C00C2566A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092B707E1286963C00C2566A /* InfoPlist.strings */; };
+		092B70821286963C00C2566A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B70811286963C00C2566A /* main.m */; };
+		092B70851286963C00C2566A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092B70831286963C00C2566A /* MainMenu.xib */; };
+		092B70881286963C00C2566A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 092B70861286963C00C2566A /* Credits.rtf */; };
+		092B708B1286963C00C2566A /* MinecraftRemoteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092B708A1286963C00C2566A /* MinecraftRemoteAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		092B70771286963C00C2566A /* MinecraftRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinecraftRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092B707A1286963C00C2566A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		092B707C1286963C00C2566A /* MinecraftRemote-Info.plist */ = {isa = PBXFileReference; path = "MinecraftRemote-Info.plist"; sourceTree = "<group>"; };
+		092B707D1286963C00C2566A /* MinecraftRemote_Prefix.pch */ = {isa = PBXFileReference; path = MinecraftRemote_Prefix.pch; sourceTree = "<group>"; };
+		092B707F1286963C00C2566A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		092B70811286963C00C2566A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		092B70841286963C00C2566A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		092B70871286963C00C2566A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		092B70891286963C00C2566A /* MinecraftRemoteAppDelegate.h */ = {isa = PBXFileReference; path = MinecraftRemoteAppDelegate.h; sourceTree = "<group>"; };
+		092B708A1286963C00C2566A /* MinecraftRemoteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinecraftRemoteAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092B70741286963C00C2566A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B707B1286963C00C2566A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092B70681286963B00C2566A = {
+			isa = PBXGroup;
+			children = (
+				092B706F1286963C00C2566A /* Classes */,
+				092B70701286963C00C2566A /* Other Sources */,
+				092B70711286963C00C2566A /* Resources */,
+				092B70721286963C00C2566A /* Frameworks */,
+				092B70781286963C00C2566A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092B706F1286963C00C2566A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				092B70891286963C00C2566A /* MinecraftRemoteAppDelegate.h */,
+				092B708A1286963C00C2566A /* MinecraftRemoteAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		092B70701286963C00C2566A /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				092B707D1286963C00C2566A /* MinecraftRemote_Prefix.pch */,
+				092B70811286963C00C2566A /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		092B70711286963C00C2566A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				092B707C1286963C00C2566A /* MinecraftRemote-Info.plist */,
+				092B707E1286963C00C2566A /* InfoPlist.strings */,
+				092B70831286963C00C2566A /* MainMenu.xib */,
+				092B70861286963C00C2566A /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		092B70721286963C00C2566A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				092B707A1286963C00C2566A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		092B70781286963C00C2566A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092B70771286963C00C2566A /* MinecraftRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092B70761286963C00C2566A /* MinecraftRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092B708E1286963C00C2566A /* Build configuration list for PBXNativeTarget "MinecraftRemote" */;
+			buildPhases = (
+				092B70731286963C00C2566A /* Sources */,
+				092B70741286963C00C2566A /* Frameworks */,
+				092B70751286963C00C2566A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinecraftRemote;
+			productName = MinecraftRemote;
+			productReference = 092B70771286963C00C2566A /* MinecraftRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092B706A1286963B00C2566A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Swedishcampground Software";
+			};
+			buildConfigurationList = 092B706D1286963B00C2566A /* Build configuration list for PBXProject "MinecraftRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 092B70681286963B00C2566A;
+			productRefGroup = 092B70781286963C00C2566A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092B70761286963C00C2566A /* MinecraftRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		092B70751286963C00C2566A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B70801286963C00C2566A /* InfoPlist.strings in Resources */,
+				092B70851286963C00C2566A /* MainMenu.xib in Resources */,
+				092B70881286963C00C2566A /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092B70731286963C00C2566A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092B70821286963C00C2566A /* main.m in Sources */,
+				092B708B1286963C00C2566A /* MinecraftRemoteAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		092B707E1286963C00C2566A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092B707F1286963C00C2566A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		092B70831286963C00C2566A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092B70841286963C00C2566A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		092B70861286963C00C2566A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092B70871286963C00C2566A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		092B708C1286963C00C2566A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		092B708D1286963C00C2566A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		092B708F1286963C00C2566A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MinecraftRemote_Prefix.pch;
+				INFOPLIST_FILE = "MinecraftRemote-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		092B70901286963C00C2566A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MinecraftRemote_Prefix.pch;
+				INFOPLIST_FILE = "MinecraftRemote-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092B706D1286963B00C2566A /* Build configuration list for PBXProject "MinecraftRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B708C1286963C00C2566A /* Debug */,
+				092B708D1286963C00C2566A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092B708E1286963C00C2566A /* Build configuration list for PBXNativeTarget "MinecraftRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092B708F1286963C00C2566A /* Debug */,
+				092B70901286963C00C2566A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092B706A1286963B00C2566A /* Project object */;
+}
