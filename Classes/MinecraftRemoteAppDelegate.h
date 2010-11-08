@@ -7,11 +7,24 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "RemoteController.h"
+
+@class RemoteController;
 
 @interface MinecraftRemoteAppDelegate : NSObject <NSApplicationDelegate> {
   NSWindow *window;
+  RemoteController *_remoteController;
+  NSButton *_stateButton;
+  NSTextField *_modeLabel;
+  NSString *_controlEventString;
 }
 
+@property (retain) IBOutlet NSTextField *modeLabel;
+@property (retain, readonly) IBOutlet RemoteController *remoteController;
 @property (retain) IBOutlet NSWindow *window;
+@property (retain) IBOutlet NSButton *stateButton;
+@property (copy) NSString *controlEventString;
+
+- (void) pressKey:(NSString*)keyCode;
 
 @end
